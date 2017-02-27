@@ -1,0 +1,15 @@
+<button type="button" data-toggle="modal" data-target="#<%= modal_identifier %>" style="font-family: IM Fell English SC">
+    <%= modal_name %>
+</button>
+
+<div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="<%= modal_identifier %>">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <h3 class="modal-title">
+                <%= modal_name %>
+            </h3><br>
+            <br>
+            <%= modal_text %>
+        </div>
+    </div>
+</div>

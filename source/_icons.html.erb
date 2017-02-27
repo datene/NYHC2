@@ -2,51 +2,19 @@
 <div class="container">
   <div class="row">
 
+    <% data.about.each do |item| %>
+
     <div class="col-xs-6 col-lg-3">
       <div class="explanation-icon text-center">
-        <img src="images/heart.png" alt="heart">
+        <%= image_tag item[:image] %>
         <h3>
-          Cool stuff
+          <%= item[:name] %>
         </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempore!
-        </p>
+        <%= partial "text_modal", locals: { modal_text: item[:text], modal_name: item[:name], modal_identifier: item[:identifier] } %>
       </div>
     </div>
-    <div class="col-xs-6 col-lg-3">
-      <div class="explanation-icon text-center">
-        <img src="images/beer.png" alt="heart">
-        <h3>
-          Cool stuff
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, soluta?
-        </p>
-      </div>
-    </div>
-    <div class="col-xs-6 col-lg-3">
-      <div class="explanation-icon text-center">
-        <img src="images/money.png" alt="heart">
-        <h3>
-          Cool stuff
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptatem!
-        </p>
-      </div>
-    </div>
-    <div class="col-xs-6 col-lg-3">
-      <div class="explanation-icon text-center">
-        <img src="images/globe.png" alt="heart">
-        <h3>
-          Cool stuff
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, cupiditate!
-        </p>
-      </div>
-    </div>
+    
+    <% end %>
 
   </div>
 </div>
-<!-- EXPLANATION ICONS END HERE -->

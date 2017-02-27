@@ -1,21 +1,24 @@
-- name: Romain
-  role: COO
-  category: Paris
-  background_image: card-background.jpg
-  card_header: Hello world
-  card_text: some text, some more text
-  avatar: beer.png
-- name: Seb
-  role: CTO
-  category: London
-  background_image: background.jpg
-  card_header: Hello world1
-  card_text: some text, some more text2
-  avatar: globe.png
-- name: Ruben
-  role: Lead coach
-  category: Barcelona
-  background_image: money.png
-  card_header: Hello Rubyen
-  card_text: some text, some more text2
-  avatar: heart.png
+- name: roger
+  category: Agnostic Front
+  background_image: Agnostic_Front.jpg
+  card_header: Roger Miret
+  card_text: "I think they used us for this whole gentrification, we were the first one’s here, we had to deal with the gangs that were here. Nobody ever walked down to Ave’s B, C or D, nobody would ever go that way, but we did."
+  avatar: roger_miret.jpg
+- name: billy
+  category: The Psychos / S.O.D. / M.O.D.
+  background_image: sod.jpg
+  card_header: Billy Milano
+  card_text: "For me hardcore is in my soul and NYHC lives forever It’s not either or not you are a part of it or living vicariously thru it. The fact is I was there, I’ve seen it and it’s eternal."
+  avatar: billy_milano.jpg
+- name: judge
+  category: Judge
+  background_image: judge.jpg
+  card_header: Mike Judge
+  card_text: "I came up with all these words which became the New York crew song, the whole framework of this band that wasn’t going to let people do this to us anymore. We weren’t going to be doormats. Because we’re being cool and nice doesn’t give you the right to walk on us."
+  avatar: mike_judge.jpg
+- name: danny
+  category: Crown Of Thornz / Skarhead
+  background_image: dd.jpg
+  card_header: Danny Diablo
+  card_text: "Graffiti was my first drug, it was like a high. I went to a place to bomb a train and anyone could attack me. I could get hit with a bat, I could get stabbed up or I could find someone and vick their shit or a cop could lock me up or beat me up then lock me up!"
+  avatar: danny_diablo.jpg

@@ -1,4 +1,24 @@
 .footer {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333333;
+  color: #CCCCCC;
+  padding: 20px;
+  margin-top: 50px;
+  @media (max-width: 768px) {
+    .fa {
+      font-size: 1.5em;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .fa {
+      font-size: 2em;
+    }
+  }
   .fa {
     color: white;
     transition: color 200ms ease;
@@ -6,14 +26,7 @@
       color: yellow;
     }
   }
-
   a {
     margin: 5px;
   }
-
-  width: 100vw;
-  height: 200px;
-  background: $brand-black;
-  color: white;
-  padding: 20px;
 }

@@ -1,11 +1,25 @@
  <div class="banner" style="background-image: url('<%= image_path(banner_image) %>')">
   <div class="banner-content">
+    <%= image_tag "NYHC_logoWHITE.png", class: "logo" %>
     <h1>
-     <%= header %>
+      The NEW YORK HARDCORE CHRONICLES Film <br>
+      a film by DREW STONE
     </h1>
-    <h2>
-      <%= banner_text %>
-    </h2>
-    <a href="#" class="btn btn-primary">click me</a>
+    <p>
+      Director Drew Stone’s The New York Chronicles Film is an incredible journey thru the community and culture of the iconic New York hardcore scene that is still vibrant, relevant and going strong to this day. Not the typical history of a local music scene but so much more. Shot in an episodic formant the film contains over 60 interviews, never before seen footage, photos and a blazing soundtrack. Buy the ticket and take the ride!
+    </p>
+    <div class="banner-actions">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-6">
+            <%= partial "modal", locals: { modal_text: "View Trailer", modal_name: "trailer", modal_video: "https://www.youtube.com/embed/vvGnjFCVYSk"  } %>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <%= partial "order" %>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <%= image_tag "drmartens.jpg", class: "advertisement" %>
 </div>

@@ -1,5 +1,4 @@
 .card {
-  width: 500px;
   height: 250px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover;
@@ -12,23 +11,40 @@
   position: absolute;
   right: 10px;
   top: 10px;
+  z-index: 0;
 }
+@media (max-width: 768px) {
+  .card-category {
+    font-size: 15px;
+  }
+  .card-description p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-category {
+    font-size: 20px;
+  }
+  .card-description p {
+    font-size: 15px;
+  }
+}
+
 .card-category {
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 20px;
+  z-index: 2;
 }
 .card-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  z-index: 2;
 }
 .card-description h2 {
   font-size: 22px;
-}
-.card-description p {
-  font-size: 15px;
 }
 .card-link {
   position: absolute;
