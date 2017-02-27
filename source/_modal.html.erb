@@ -4,5 +4,22 @@
 <div id="<%= modal_name %>" class="modal fade">
   <div class="modal-dialog">
     <iframe width="560" height="315" src="<%= modal_video %>" frameborder="0" allowfullscreen></iframe>
+    <script>
+    $
+      ('#trailer').on('hidden.bs.modal', function (e) {
+      stopVideo( document.querySelector('body') );
+    });
+    var stopVideo = function ( element ) {
+    var iframe = element.querySelector( 'iframe');
+    var video = element.querySelector( 'video' );
+    if ( iframe ) {
+      var iframeSrc = iframe.src;
+      iframe.src = iframeSrc;
+    }
+    if ( video ) {
+      video.pause();
+    }
+    };
+    </script>
   </div>
 </div>
