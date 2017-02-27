@@ -3,12 +3,6 @@
 ###
 
 
-# in config.rb
-data.products.each do |member|
-  proxy "/flats/#{member.name.downcase}.html", "/flats/show.html", locals: { owner: member }
-end
-
-
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
