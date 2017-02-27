@@ -14,3 +14,20 @@
 @import "pages/*";
 @import "vendor/*";
 
+.splash-container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999999999;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .splash {
+    background-image: image-url('poster.jpg');
+    background-size: cover;
+    width: 480px;
+    height: 600px;
+  }
+}
