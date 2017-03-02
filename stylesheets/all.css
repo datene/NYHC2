@@ -10096,7 +10096,7 @@ button.close {
     color: white;
     text-shadow: 0px -1px black;
     text-align: center;
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto; }
     /* line 25, /home/nicolas/code/nicofm/NYHC2/source/stylesheets/components/_banner.scss */
     .banner .banner-content .logo {
