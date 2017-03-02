@@ -1,4 +1,4 @@
-$(document).on('click',function(){
+$(document).bind('click touchstart', function(){
   console.log("what")
   $('.splash-container').remove();
 })
