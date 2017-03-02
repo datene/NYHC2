@@ -1,4 +1,4 @@
-$(document).on('click'(function(){
+$(document).on('click',function(){
   console.log("what")
   $('.splash-container').remove();
 })
