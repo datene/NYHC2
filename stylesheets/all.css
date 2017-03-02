@@ -6362,6 +6362,7 @@ button.close {
 
 /* line 38, /usr/local/opt/rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_modals.scss */
 .modal-open .modal {
+  z-index: 999999 !important;
   overflow-x: hidden;
   overflow-y: auto; }
 
