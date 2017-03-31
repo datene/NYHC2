@@ -11112,12 +11112,7 @@ stretchRight
   100% {
     -webkit-transform: scaleX(1); } }
 /* line 17, /home/nicolas/code/nicofm/NYHC2/source/stylesheets/all.css.scss */
-.splash-container {
-  width: 100vw;
-  height: 100vh;
-  z-index: 9999999999;
-  position: fixed;
-  top: 0;
+
   /*background-color: white;*/
   display: -webkit-box;
   display: -webkit-flex;
@@ -11132,11 +11127,7 @@ stretchRight
       -ms-flex-align: center;
           align-items: center; }
   /* line 27, /home/nicolas/code/nicofm/NYHC2/source/stylesheets/all.css.scss */
-  .splash-container .splash {
-    background-image: url("../images/poster.jpg");
-    background-size: cover;
-    width: 480px;
-    height: 600px; }
+
 
 /* line 35, /home/nicolas/code/nicofm/NYHC2/source/stylesheets/all.css.scss */
 .modal-content {
