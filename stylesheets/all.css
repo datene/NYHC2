@@ -10090,6 +10090,13 @@ button.close {
     letter-spacing: 0px;
     text-decoration: none;
     color: white; }
+
+  .banner #screenings-btn {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: white; }
   /* line 17, /home/nicolas/code/nicofm/NYHC2/source/stylesheets/components/_banner.scss */
   .banner .banner-content {
     z-index: 999999;
