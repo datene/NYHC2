@@ -11141,3 +11141,14 @@ stretchRight
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px; }
+
+.button-right img {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  -webkit-transform: rotate(20deg);
+  transform: rotate(12deg);
+  top: 40px;
+  right: 50px;
+  width: 150px;
+  cursor: pointer; }
