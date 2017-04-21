@@ -45,8 +45,14 @@
   <!-- Use title if it's in the page YAML frontmatter -->
   <title>STONE FILMS NYC presents: The NYHC Chronicles a film by DREW STONE</title>
 
+  <!-- Font awesome css -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- Merch css -->
   <link href="stylesheets/merch.css" rel="stylesheet" />
+
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -69,7 +75,7 @@
         <!-- Film DVD -->
         <div class="product-item w100 flex-row">
           <div>
-            <a href="" data-toggle="modal"><img src="images/merch/dvd.png" /></a>
+            <a class="open-modal" href="" data-toggle="modal" data-target="#myModal"><img src="images/merch/dvd.png" /></a>
 
             <input class="item-price" type="hidden" value="16.95" />
             <input class="item-price-ship" type="hidden" value="3" />
@@ -115,7 +121,8 @@
         <!-- T-shirt -->
         <div class="product-item w100 flex-row">
           <div>
-            <img src="images/merch/tshirts.png" />
+            <a class="open-modal" href="" data-toggle="modal" data-target="#myModal"><img src="images/merch/tshirts.png" /></a>
+            
             <input class="item-price" type="hidden" value="16.95" />
             <input class="item-price-ship" type="hidden" value="6" />
             <input class="item-price-ship-inter" type="hidden" value="14" />
@@ -195,7 +202,8 @@
         <!-- Sweatshirt -->
         <div class="product-item w100 flex-row">
           <div>
-            <img src="images/merch/sweat.png" />
+            <a class="open-modal" href="" data-toggle="modal" data-target="#myModal"><img src="images/merch/sweat.png" /></a>
+
             <input class="item-price" type="hidden" value="26" />
             <input class="item-price-ship" type="hidden" value="10" />
             <input class="item-price-ship-inter" type="hidden" value="17" />
@@ -272,7 +280,8 @@
         <!-- Film DVD + T-shirt package -->
         <div class="product-item w100 flex-row">
           <div>
-            <img src="images/merch/dvd+tshirt.png" />
+            <a class="open-modal" href="" data-toggle="modal" data-target="#myModal"><img src="images/merch/dvd+tshirt.png" /></a>
+            
             <input class="item-price" type="hidden" value="30" />
             <input class="item-price-ship" type="hidden" value="9" />
             <input class="item-price-ship-inter" type="hidden" value="18" />
@@ -350,7 +359,8 @@
         <!-- XXX All Ages XXX The Boston Hardcore Film DVD -->
         <div class="product-item w100 flex-row">
           <div>
-            <img src="images/merch/xxxallagesxxx.png" />
+            <a class="open-modal" href="" data-toggle="modal" data-target="#myModal"><img src="images/merch/xxxallagesxxx.png" /></a>
+            
             <input class="item-price" type="hidden" value="14.95" />
             <input class="item-price-ship" type="hidden" value="3" />
             <input class="item-price-ship-inter" type="hidden" value="13" />
@@ -396,7 +406,8 @@
         <!-- Drew Stone DVD package -->
         <div class="product-item w100 flex-row">
           <div>
-            <img src="images/merch/combo.png" />
+            <a class="open-modal" href="" data-toggle="modal" data-target="#myModal"><img src="images/merch/combo.png" /></a>
+            
             <input class="item-price" type="hidden" value="25" />
             <input class="item-price-ship" type="hidden" value="6" />
             <input class="item-price-ship-inter" type="hidden" value="17" />
@@ -510,10 +521,31 @@
     </p>
   </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" style="z-index: 999999">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: transparent;">
+        <div class="modal-body" style="display: flex; align-items: center; justify-content: center;">
+          <img id="modal-img" src="images/merch/dvd.png" style="width: 70%;" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
     crossorigin="anonymous"></script>
 
+  <!-- bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- merch -->  
   <script src="javascripts/merch.js"></script>
+
 </body>
 
 </html>
